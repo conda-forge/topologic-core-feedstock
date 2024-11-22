@@ -1,5 +1,5 @@
 {% set name = "topologic-core" %}
-{% set version = "8.0.0" %}
+{% set version = "8.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/wassimj/Topologic/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c29953364d91f8523403f9f7c244d1e6462243027882273a52731cdc9bf1238e
+  sha256: f78216f2482076638b80353c65e3f84d1939d999cbee47297dafba83fc615a03
   patches:
     - patches/do_not_use_pybind11_subdir.patch
 
