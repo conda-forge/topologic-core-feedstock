@@ -8,8 +8,6 @@ package:
 source:
   url: https://github.com/wassimj/Topologic/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 3684bfa03dff61b4e8d5390af2c1ce3331c411889323cd7201ed7d3ece95b880
-  patches:
-    - patches/do_not_use_pybind11_subdir.patch
 
 
 build:
