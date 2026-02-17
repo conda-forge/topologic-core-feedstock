@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: topologic-core
-  version: 8.0.2
+  version: "8.0.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/wassimj/Topologic/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 3684bfa03dff61b4e8d5390af2c1ce3331c411889323cd7201ed7d3ece95b880
+  sha256: 760869f6c20905a04919ce58409a79e685c2cb9a7a21ddff5a9b8f7a2ba239ba
 
 build:
-  number: 6
+  number: 0
 
 requirements:
   build:
